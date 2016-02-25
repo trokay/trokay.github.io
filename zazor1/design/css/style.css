@@ -1,0 +1,659 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    height: 100%;
+    background-color: #fff;
+}
+
+div {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+form input,
+textarea {
+    outline: none;
+}
+
+body {
+    width: 100%;
+    min-width: 930px;
+    color: #000;
+    font: 12px/14px Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #b1bcc0;
+    outline: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a img {
+    border: none;
+}
+
+table,
+tr,
+td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.cleaner {
+    clear: both;
+}
+
+.wrapper {
+    width: 910px;
+    margin: 0 auto -100px;
+    position: relative;
+    height: 100%;
+    min-height: 700px;
+}
+
+
+/*----------------HEADER-----------*/
+
+.header {
+    height: 277px;
+    width: 100%;
+    padding: 13px 0 0 0;
+    position: relative;
+}
+
+.phones {
+    color: #213a4d;
+    float: left;
+    height: 27px;
+    width: auto;
+    padding: 10px 0 0 5px;
+}
+
+.phones img {
+    float: left;
+}
+
+.phones span {
+    font: 18px/19px Arial, sans-serif;
+    margin: 5px 0px 0 5px;
+}
+
+.login-form {
+    width: 495px;
+    height: 27px;
+    float: left;
+    margin: 4px 0px 0 21px;
+}
+
+.login-form div {
+    float: left;
+    height: 100%;
+}
+
+.login-left {
+    width: 4px;
+    background: url(../img/login-left.png) no-repeat;
+}
+
+.login-right {
+    width: 3px;
+    background: url(../img/login-right.png) no-repeat;
+}
+
+.login-center {
+    padding: 5px 0 0 0;
+    width: 488px;
+    background: url(../img/login-center.png) repeat-x;
+}
+
+.login-center img {
+    float: left;
+    margin: 0 0 0 2px;
+}
+
+.login-center form {
+    width: 278px;
+    float: left;
+    margin: 1px -4px 0 5px;
+}
+
+.login-center form input {
+    float: left;
+    font: 12px/13px Arial, sans-serif;
+    width: 113px;
+    height: 14px;
+    padding: 0;
+    color: #51676f;
+    border: 1px solid #97a2a6;
+    margin: 0 4px 0 0;
+}
+
+.login-center a {
+    margin: 1px 0 0 0;
+    color: #fff;
+    font: 11px/13px Arial, sans-serif;
+}
+
+.login-center span {
+    color: #fff;
+    font-size: 11px;
+}
+
+.login-form-submit {
+    float: right;
+    height: 13px;
+    width: 40px;
+    border: none;
+    background: none;
+    color: #fff;
+    font-size: 11px !important;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    cursor: pointer;
+}
+
+.mini-menu {
+    height: 33px;
+    width: 85px;
+    background: url(../img/mini-menu.png) no-repeat;
+    float: right;
+    padding: 9px 0 0 0px;
+}
+
+.mini-menu img {
+    margin: 0 -1px 0 10px;
+}
+
+.center-image {
+    float: left;
+    width: 909px;
+    height: 237px;
+    background: url(../img/main-img.jpg) no-repeat;
+}
+
+.center-image a {
+    display: block;
+    margin: 100px 0 0 2px;
+    width: 266px;
+    height: 70px;
+}
+
+
+/*---------------------CENTER-MENU-----------*/
+
+.main-menu {
+    width: 915px;
+    height: 41px;
+    margin: 10px 0 0 -1px;
+}
+
+.main-menu div {
+    float: left;
+}
+
+.main-menu-left {
+    width: 17px;
+    height: 41px;
+    background: url(../img/main-menu-left.png) no-repeat;
+}
+
+.main-menu-right {
+    width: 24px;
+    height: 41px;
+    background: url(../img/main-menu-right.png) no-repeat;
+}
+
+.main-menu-center {
+    width: 874px;
+    height: 41px;
+    background: url(../img/main-menu-center.png) repeat-x;
+}
+
+.main-menu-center ul {
+    margin: 0px 0 0 0;
+    display: block;
+    height: 30px;
+    width: 575px;
+    float: left;
+    padding-left: 60px;
+}
+
+.main-menu-center ul li {
+    display: inline;
+    font: 14px/19px Arial, sans-serif;
+    color: #fff;
+    width: 105px;
+    display: block;
+    float: left;
+    margin: 0 -5px;
+    padding: 4px 0;
+    padding-right: 7px;
+    padding-left: 7px;
+}
+
+.main-menu-center ul li a {
+    color: #b1bcc0;
+    padding: 4px 10px;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.main-menu-center ul li a:hover {
+    color: #fff;
+    text-decoration: none;
+    background: url(../img/main-hover.png) no-repeat center center;
+}
+
+.case {
+    margin: 12px 0 0 3px;
+    height: 17px;
+    width: 216px;
+    float: right !important;
+    color: #fff;
+    padding-left: 20px;
+}
+
+.case span {
+    position: relative;
+    top: -2px;
+    left: 0;
+    color: #899296;
+    font: 12px/8px Arial, sans-serif;
+}
+
+.case img {
+    margin: -3px 0 0;
+    float: left;
+}
+
+
+/*--------------------SEARCH-----------------*/
+
+.search {
+    margin: 5px 0 0 0;
+    width: 100%;
+    height: 144px;
+    padding: 0 2px;
+}
+
+.search form {
+    height: 100%;
+}
+
+.search-car {
+    position: relative;
+    float: left;
+    width: 386px;
+    padding: 2px 18px 0 18px;
+    height: 100%;
+    background: url(../img/search-car-back.png) no-repeat;
+}
+
+.search-tires {
+    position: relative;
+    margin: 0 6px;
+    padding: 2px 14px 0 14px;
+    float: left;
+    width: 172px;
+    height: 100%;
+    background: url(../img/search-tires-back.png) no-repeat;
+}
+
+.search-wheels {
+    position: relative;
+    float: left;
+    padding: 2px 14px 0 14px;
+    width: 248px;
+    height: 100%;
+    background: url(../img/search-wheels-back.png) no-repeat;
+}
+
+.search-title {
+    font-size: 12px;
+    font-weight: bold;
+    color: #114165;
+    display: block;
+    text-align: center;
+    margin: 0 auto -10px;
+    ;
+}
+
+.title-left {
+    text-align: left;
+}
+
+.title-right {
+    text-align: right;
+    margin: -14px 0 0 0;
+}
+
+.search-properties {
+    width: 180px;
+    height: 90px;
+    float: left;
+    padding: 5px 0 0 0;
+}
+
+.prop-margin {
+    margin: 0 0 0 20px;
+}
+
+.search-prop-inner {
+    height: 17px;
+    margin: 0 0 5px 0;
+    width: 100%;
+}
+
+.search-prop-inner span {
+    font-size: 10px;
+    font-weight: bold;
+    display: block;
+    float: left;
+    height: 10px;
+}
+
+.search-prop-inner select {
+    margin: 2px 0 0 0;
+    height: 17px;
+    width: 100px;
+    float: right;
+    background: none;
+    padding: 0;
+    border-top: 1px solid #979797;
+    border-left: 1px solid #979797;
+    border-bottom: 0px;
+    border-right: 0px;
+    font-size: 10px;
+    outline: none;
+}
+
+.search-go {
+    float: right;
+    border: none;
+    background: url(../img/search-go.png) no-repeat;
+    height: 12px;
+    width: 52px;
+    margin: 2px 16px 0 0;
+}
+
+.tires-prop {
+    width: 170px;
+    margin: 14px 0 0 0;
+}
+
+.tires-prop select {
+    width: 50px;
+    float: left;
+}
+
+.tires-prop span {}
+
+.check-div span {
+    float: left;
+    margin: 2px 0 0px 0;
+    display: block;
+}
+
+.check-div input {
+    float: left;
+    margin: 2px 3px 0 0;
+    display: block;
+}
+
+.check-div {
+    margin: 5px 0 0 0;
+    height: 10px;
+    width: 90px;
+    float: left;
+}
+
+.wheels-right {
+    border-left: 1px solid #bdc6ca;
+    float: right;
+    width: 80px;
+    height: 107px;
+    position: absolute;
+    top: 4px;
+    left: 160px;
+    padding: 0 0 0 10px;
+    font-size: 10px;
+}
+
+.wheels-right span {
+    display: block;
+    height: 10px;
+    float: left;
+}
+
+.wheels-right select {
+    width: 50px;
+    float: left;
+    margin: 4px 0 0 0;
+    background: none;
+    padding: 0;
+    border-top: 1px solid #979797;
+    border-left: 1px solid #979797;
+    border-bottom: 0px;
+    border-right: 0px;
+    font-size: 10px;
+    outline: none;
+}
+
+
+/*---------------------MIDDLE----------------*/
+
+.left-side {
+    float: left;
+    width: 190px;
+    height: auto;
+    min-height: 300px;
+    margin: 0 0 30px 0;
+}
+
+.center-content {
+    float: left;
+    margin: 0 2px 30px;
+    padding: 0 0 10px 0px;
+    background: url(../img/middle-back.png) repeat-x #93a7b0;
+    width: 526px;
+    height: auto;
+}
+
+.right-side {
+    padding: 0 0 0 3px;
+    float: left;
+    width: 187px;
+    height: auto;
+    min-height: 350px;
+    margin: 0 0 30px 0;
+}
+
+.middle {
+    width: 100%;
+    height: auto;
+    margin: 5px 0 0 0;
+}
+
+.side-menu-title {
+    height: 25px;
+    width: 156px;
+    padding: 6px 0 0 30px;
+    background: url(../img/menu-title-back.png) no-repeat;
+    color: #114165;
+    font: 12px/13px Verdana, Arial;
+}
+
+.side-menu-block {
+    height: auto;
+    width: 180px;
+    padding: 0 0 0 3px;
+    margin: 10px 0 10px 0;
+}
+
+.side-block-title {
+    padding: 7px 0 0 32px;
+    display: block;
+    width: 118px;
+    height: 21px;
+    background: url(../img/menu-item-title-back.png) no-repeat;
+    color: #114165;
+    font: 12px/13px Verdana, Arial;
+}
+
+.side-menu-item {
+    display: block;
+    width: 130px;
+    height: 14px;
+    padding: 1px 0 0 10px;
+    margin: 10px 0 0 30px;
+    color: #465961;
+    font: 12px/13px Verdana, Arial;
+    background: url(../img/marker.png) no-repeat 0 4px;
+    font-weight: normal;
+}
+
+.side-menu-item-active {
+    display: block;
+    width: 130px;
+    height: 14px;
+    padding: 1px 0 0 10px;
+    margin: 10px 0 0 30px;
+    color: #465961;
+    font: 14px/13px Verdana, Arial;
+    text-decoration: underline;
+    background: url(../img/marker.png) no-repeat 0 4px;
+    font-weight: bold;
+}
+
+.side-menu-item:hover {
+    font-size: 13px;
+    font-weight: bold;
+    background: url(../img/marker-hover.png) no-repeat 0 5px;
+    color: #0c3256;
+}
+
+.right-menu-choose {
+    height: 30px;
+    width: 83px;
+    background: url(../img/choose-button-back.png) no-repeat;
+    border: none;
+    margin: 10px 0 0 25px;
+    cursor: pointer;
+}
+
+.checkbox-menu-item {
+    position: relative;
+    display: block;
+    height: 15px;
+    width: 100%;
+    color: #465961;
+    margin: 6px 0 5px;
+    padding: 0 0 0 30px;
+    font: 12px/13px Verdana, Arial;
+}
+
+.checkbox-menu-item input {
+    position: absolute;
+    top: 1px;
+    left: 10px;
+}
+
+.middle-item {
+    float: left;
+    width: 140px;
+    height: 180px;
+    text-align: center;
+    margin: 15px 17px;
+}
+
+.middle-item-company {
+    color: #206988;
+    font: 14px/14px Verdana, Arial;
+}
+
+.middle-item-model {
+    margin: 0 0 3px 0;
+    color: #1f2528;
+    height: 26px;
+    font: 11px/13px Verdana, Arial;
+}
+
+.middle-item-image {
+    text-align: center;
+    display: table;
+    width: 140px;
+    height: 129px;
+    background: url(../img/middle-item-frame.png) no-repeat;
+}
+
+.middle-item-image a {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.middle-item-image a img {
+    max-width: 136px;
+}
+
+.middle-item-price {
+    margin: 5px 0 0 0;
+    color: #114165;
+    font: bold 13px/13px Verdana, Arial;
+}
+
+.tire-companies {
+    width: 100%;
+    margin: 0px 0 20px;
+    text-align: center;
+}
+
+
+/*---------------------FOOTER---------------*/
+
+.footer {
+    margin: 0px auto;
+    width: 910px;
+    height: 100px;
+    text-align: center;
+    font-family: Tahoma, Arial, sans-serif;
+    background-color: #213a4d;
+}
+
+.footer ul {
+    padding: 10px 0 10px 0;
+}
+
+.footer ul li {
+    display: inline;
+    color: #bec6c9;
+    font-size: 13px;
+}
+
+.footer ul li a:hover {
+    color: #52abcb;
+    text-decoration: none;
+}
+
+.footer p {
+    padding: 0px 0 3px 0;
+    color: #d04435;
+    font-size: 11px;
+}
+
+.footer p a {
+    color: #d04435;
+}
