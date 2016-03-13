@@ -624,7 +624,7 @@ td {
 
 /*---------------------FOOTER---------------*/
 
-.footer {
+footer {
     margin: 0px auto;
     width: 910px;
     height: 100px;
@@ -633,27 +633,27 @@ td {
     background-color: #213a4d;
 }
 
-.footer ul {
+footer ul {
     padding: 10px 0 10px 0;
 }
 
-.footer ul li {
+footer ul li {
     display: inline;
     color: #bec6c9;
     font-size: 13px;
 }
 
-.footer ul li a:hover {
+footer ul li a:hover {
     color: #52abcb;
     text-decoration: none;
 }
 
-.footer p {
+footer p {
     padding: 0px 0 3px 0;
     color: #d04435;
     font-size: 11px;
 }
 
-.footer p a {
+footer p a {
     color: #d04435;
 }

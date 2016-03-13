@@ -10,41 +10,42 @@
 
 <body>
     <div class="wrapper">
-        <div class="header">
-            <div class="phones">
-                <img src="design/img/head-phone.png" height="21" width="22" />
-                <span>(044)123-45-67</span>
-                <span>(093)567-89-10</span>
-            </div>
-
-            <div class="login-form">
-                <div class="login-left"></div>
-                <div class="login-center">
-                    <form method='post'>
-                        <input type="text" placeholder="логин">
-                        <input type="password" placeholder="пароль">
-                        <button class="login-form-submit" name='submitAuth' value='Вход'>Вход</button>
-                    </form>
-                    <span>&nbsp;|&nbsp;</span>
-                    <a href="#">регистрация</a>
-                    <a href="#" style="text-decoration:underline; color:#bfbfbf; margin:0 0 0 20px;">забыли пароль?</a>
+        <header>
+            <div class="header">
+                <div class="phones">
+                    <img src="design/img/head-phone.png" height="21" width="22" />
+                    <span>(044)123-45-67</span>
+                    <span>(093)567-89-10</span>
                 </div>
-                <!--login-center-->
-                <div class="login-right"></div>
-                <div style="clear:both"></div>
-            </div>
+
+                <div class="login-form">
+                    <div class="login-left"></div>
+                    <div class="login-center">
+                        <form method='post'>
+                            <input type="text" name="login" value='' placeholder="логин">
+                            <input type="password" name="password" value='' placeholder="пароль">
+                            <button class="login-form-submit" name='submitAuth'><a href="#">Вход</a></button>
+                        </form>
+                        <span>&nbsp;|&nbsp;</span>
+                        <a href="#">регистрация</a>
+                        <a href="#" style="text-decoration:underline; color:#bfbfbf; margin:0 0 0 20px;">забыли пароль?</a>
+                    </div>
+                    <!--login-center-->
+                    <div class="login-right"></div>
+                    <div style="clear:both"></div>
+                </div>
 
 
-            <div class="mini-menu">
-                <a href="#"><img src="design/img/mini-home.png" height="11" width="12" /></a>
-                <a href="#"><img src="design/img/mini-lan.png" height="10" width="14" /></a>
-                <a href="#"><img src="design/img/mini-mail.png" height="9" width="12" /></a>
+                <div class="mini-menu">
+                    <a href="#"><img src="design/img/mini-home.png" height="11" width="12" /></a>
+                    <a href="#"><img src="design/img/mini-lan.png" height="10" width="14" /></a>
+                    <a href="#"><img src="design/img/mini-mail.png" height="9" width="12" /></a>
+                </div>
+                <div class="center-image">
+                    <a href="#"></a>
+                </div>
             </div>
-            <div class="center-image">
-                <a href="#"></a>
-            </div>
-        </div>
-        <!--header-->
+        </header>
         <div class="main-menu">
             <div class="main-menu-left"></div>
             <div class="main-menu-center">
@@ -125,6 +126,7 @@
                 </form>
             </div>
             <!--search-tire-->
+
             <div class="search-wheels">
                 <form method='get' action='#'>
                     <span class="search-title title-left">ПОИСК ДИСКОВ</span>
@@ -171,6 +173,7 @@
 
                         </div>
                     </div>
+
                     <!--search-properties-->
                     <div class="wheels-right">
                         <span>ДЦО&nbsp;</span>
@@ -317,22 +320,22 @@
                 <form method='get' action='#'>
                     <p class="side-menu-title">БРЕНДЫ:</p>
                     <div class="side-menu-block">
-                        <p class="side-block-title">ШИНЫ</p>
-                        <p class="checkbox-menu-item">
-                            <input type="checkbox" name="brand[]" value="70" />Бренд 1</p>
-                        <p class="checkbox-menu-item">
-                            <input type="checkbox" name="brand[]" value="57" />Бренд 2</p>
-                        <p class="checkbox-menu-item">
-                            <input type="checkbox" name="brand[]" value="2" />Бренд 3</p>
+                        <label class="side-block-title">ШИНЫ</label>
+                        <label class="checkbox-menu-item">
+                            <input type="checkbox" name="brand[]" value="70" />Бренд 1</label>
+                        <label class="checkbox-menu-item">
+                            <input type="checkbox" name="brand[]" value="57" />Бренд 2</label>
+                        <label class="checkbox-menu-item">
+                            <input type="checkbox" name="brand[]" value="2" />Бренд 3</label>
                     </div>
                     <div class="side-menu-block">
-                        <p class="side-block-title">ДИСКИ</p>
-                        <p class="checkbox-menu-item">
-                            <input type="checkbox" name="brand[]" value="60" />Бренд 1</p>
-                        <p class="checkbox-menu-item">
-                            <input type="checkbox" name="brand[]" value="31" />Бренд 2</p>
-                        <p class="checkbox-menu-item">
-                            <input type="checkbox" name="brand[]" value="32" />Бренд 3</p>
+                        <label class="side-block-title">ДИСКИ</label>
+                        <label class="checkbox-menu-item">
+                            <input type="checkbox" name="brand[]" value="60" />Бренд 1</label>
+                        <label class="checkbox-menu-item">
+                            <input type="checkbox" name="brand[]" value="31" />Бренд 2</label>
+                        <label class="checkbox-menu-item">
+                            <input type="checkbox" name="brand[]" value="32" />Бренд 3</label>
                     </div>
                     <button class="right-menu-choose" name='search_brands' value='#'></button>
                 </form>
@@ -345,18 +348,22 @@
             <!--middle-->
         </div>
         <!--wrapper-->
-        <div class="footer">
-            <ul>
-                <li><a href='#'>О компании</a></li>
-                <li>|</li>
-                <li><a href='#'>Доставка</a></li>
-                <li>|</li>
-                <li><a href='#'>Cтатьи</a></li>
-                <li>|</li>
-                <li><a href='#'>Контакты</a></li>
-            </ul>
-            <p><a href="#">Создание сайта</a>&nbsp;&copy;&nbsp;Global Vision</p>
-        </div>
+        <footer>
+            <div class="footer">
+                <ul>
+                    <nav>
+                        <li><a href='#'>О компании</a></li>
+                        <li>|</li>
+                        <li><a href='#'>Доставка</a></li>
+                        <li>|</li>
+                        <li><a href='#'>Cтатьи</a></li>
+                        <li>|</li>
+                        <li><a href='#'>Контакты</a></li>
+                    </nav>
+                </ul>
+                <p><a href="#">Создание сайта</a>&nbsp;&copy;&nbsp;Global Vision</p>
+            </div>
+        </footer>
 
 </body>
 
